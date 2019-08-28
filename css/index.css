@@ -706,7 +706,7 @@ table td {
   transform: rotate(0);
 }
 #sidebar {
-  float: right;
+  float: left;
   width: 300px;
 }
 .sidebar-inner {
@@ -953,7 +953,7 @@ table td {
 }
 #header {
   position: relative;
-  height: 80vh;
+  height: 100vh;
   font-size: 20px;
   background-color: #888;
   background-repeat: no-repeat;
@@ -1282,7 +1282,7 @@ table td {
   font-size: 14px;
   background-color: #fff;
   width: calc(100% - 320px);
-  float: left;
+  float: right;
 }
 .content a {
   word-wrap: break-word;
@@ -1409,6 +1409,7 @@ table td {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  background-image: url("https://fontawesome.com/v4.7.0/icons/");
 }
 #footer a {
   border-bottom: 0;
